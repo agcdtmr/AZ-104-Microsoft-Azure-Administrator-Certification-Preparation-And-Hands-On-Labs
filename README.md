@@ -2,7 +2,7 @@
 
 ## List of hands-on labs categorized according to the domains of the AZ-104 exam:
 
-### 1. **Manage Azure identities and Azure governance (20–25%)**
+### 1. **Manage Azure identities and governance (20–25%)**
    - **Azure Active Directory (AD)**
      - [ ] Create and configure users in Azure AD
      - [ ] Assign and manage Azure AD roles
@@ -10,6 +10,11 @@
      - [ ] Configure Azure AD Identity Protection
      - [ ] Manage device settings in Azure AD
      - [ ] Implement conditional access policies
+     - [ ] **Lab 01 - Manage Azure Active Directory Identities**
+       - [ ] Create and configure Azure AD users - [Link](https://youtu.be/_HiPZ_SJJ0w)
+       - [ ] Create Azure AD groups with assigned and dynamic membership - [Link](https://youtu.be/pehu0crjhXo)
+       - [ ] Create an Azure Active Directory (AD) tenant - [Link](https://youtu.be/Pqa3x6s4ms8)
+       - [ ] Manage Azure AD guest users - [Link](https://youtu.be/KHeYTRjFt6w)
    - **Subscriptions and Governance**
      - [ ] Create and manage Azure subscriptions
      - [ ] Set up and manage Azure Management Groups
@@ -19,6 +24,30 @@
      - [ ] Manage costs using Azure Cost Management
      - [ ] Implement tags for resource management
      - [ ] Create and manage resource groups
+     - [ ] **Lab 02a - Manage Subscriptions and RBAC**
+       - [ ] Implement Management Groups - [Link](https://youtu.be/iIip7IgkU7Q)
+       - [ ] Create custom RBAC roles - [Link](https://youtu.be/N3bB7vg5qyA)
+       - [ ] Assign RBAC roles - [Link](https://youtu.be/mazOGfuglOg)
+     - [ ] **Lab 02b - Manage Governance via Azure Policy**
+       - [ ] Create and assign tags via the Azure portal - [Link](https://youtu.be/qPlSn-aT2s8)
+       - [ ] Enforce tagging via an Azure policy - [Link](https://youtu.be/gOLtNPURxMM)
+       - [ ] Apply tagging via an Azure policy - [Link](https://youtu.be/fQ8VPIzeRIY)
+     - [ ] **Lab 03a - Manage Azure resources by Using the Azure Portal**
+       - [ ] Create resource groups and deploy resources to resource groups - [Link](https://youtu.be/FtaCm0IK2-0)
+       - [ ] Move resources between resource groups - [Link](https://youtu.be/62KS3zGARIk)
+       - [ ] Implement and test resource locks - [Link](https://youtu.be/QjkdcaDXFcc)
+     - [ ] **Lab 03b - Manage Azure resources by Using ARM Templates**
+       - [ ] Review an ARM template for deployment of an Azure managed disk - [Link](https://youtu.be/XtUrXWyrlzc)
+       - [ ] Create an Azure managed disk by using an ARM template - [Link](https://youtu.be/ed-IlXs7hqg)
+       - [ ] Review the ARM template-based deployment of the managed disk - [Link](https://youtu.be/ed-IlXs7hqg)
+     - [ ] **Lab 03c - Manage Azure resources by Using Azure PowerShell**
+       - [ ] Start a PowerShell session in Azure Cloud Shell - [Link](https://youtu.be/iPIjsBYaqrk)
+       - [ ] Create a resource group and an Azure managed disk by using Azure PowerShell - [Link](https://youtu.be/iPIjsBYaqrk)
+       - [ ] Configure the managed disk by using Azure PowerShell - [Link](https://youtu.be/iPIjsBYaqrk)
+     - [ ] **Lab 03d - Manage Azure resources by Using Azure CLI**
+       - [ ] Start a Bash session in Azure Cloud Shell - [Link](https://youtu.be/XXWDvosISU8)
+       - [ ] Create a resource group and an Azure managed disk by using Azure CLI - [Link](https://youtu.be/XXWDvosISU8)
+       - [ ] Configure the managed disk by using Azure CLI - [Link](https://youtu.be/XXWDvosISU8)
      - [ ] **Create, assign and manage Azure Policies**
        - [ ] Create a policy assignment for Allowed Locations
        - [ ] Test the assignment of the Allowed Locations policy
@@ -38,6 +67,13 @@
      - [ ] Implement secure access to storage accounts using shared access signatures (SAS)
      - [ ] Configure Azure Storage firewalls and virtual networks
      - [ ] Implement Azure Blob Storage lifecycle management policies
+     - [ ] **Lab 07 - Manage Azure Storage**
+       - [ ] Provision the lab environment - [Link](https://youtu.be/SxGpjNoxpYA)
+       - [ ] Create and configure Azure Storage accounts - [Link](https://youtu.be/QBrwHBOX96M)
+       - [ ] Manage blob storage - [Link](https://youtu.be/a2iqDApc2jk)
+       - [ ] Manage authentication and authorization for Azure Storage - [Link](https://youtu.be/p4pSg46U3w8)
+       - [ ] Create and configure an Azure Files shares - [Link](https://youtu.be/VoWdOrfiiR4)
+       - [ ] Manage network access for Azure Storage - [Link](https://youtu.be/YFhezjVi-QM)
      - [ ] **Using Blob Storage**
        - [ ] Establish a Storage Account
        - [ ] Build a Container
@@ -100,84 +136,4 @@
      - [ ] **Install NGINX server on Linux Virtual Machine via Cloud-Init**
        - [ ] Build a virtual machine
        - [ ] Permit RDP traffic using the NSG rules
-       - [ ] Establish a data disk
-       - [ ] Connect a data disk to a VM
-     - [ ] **Use Custom Script extension to install NGINX web server**
-       - [ ] Make a Linux virtual machine on Azure
-       - [ ] Installing Nginx using unique script extensions
-       - [ ] Test the newly created virtual machine by opening Port 80
-     - [ ] **Deploy software using VM extensions**
-       - [ ] Software Deployment Using VM Extensions
-       - [ ] RDP to a Windows virtual machine
-       - [ ] Deployment’s verification
-     - [ ] **Build an Azure VM of Windows Server 2019 Datacenter image with CLI**
-       - [ ] Utilize the Azure CLI to create an Azure Virtual Machine
-       - [ ] Knowledge of deployment specifics
-       - [ ] Enter the virtual machine through RDP
-       - [ ] Test the virtual machine you constructed
-     - [ ] **Resize Azure Virtual Machine**
-       - [ ] VM sizing using the portal
-       - [ ] VM sizing through CLI
-     - [ ] **Adding network interface to a virtual machine**
-       - [ ] Build a virtual machine
-       - [ ] Establish a network interface
-       - [ ] Extend the virtual machine’s network interface
-     - [ ] **Work using custom images**
-       - [ ] Setup IIS
-       - [ ] Make Your Custom Image
-       - [ ] Making a VM with a Custom Image
-     - [ ] **Create Availability sets**
-       - [ ] How to create an availability set
-       - [ ] Making a Virtual Machine Available in the Set
-       - [ ] Install the second VM within the same Availability Set
-   - **App Services**
-     - [ ] Deploy and manage Azure App Services
-     - [ ] Configure App Service Plans
-     - [ ] Implement and configure autoscaling in App Services
-     - [ ] Secure App Services using managed identities
-     - [ ] **Host portfolio using Azure App Service**
-       - [ ] Windows Virtual Machine installation
-       - [ ] Software Deployment Using VM Extensions
-       - [ ] RDP to a Windows VM
-       - [ ] Deployment’s verification
-   - **Containers and Kubernetes**
-     - [ ] Deploy containers using Azure Container Instances (ACI)
-     - [ ] Create and manage Azure Kubernetes Service (AKS) clusters
-     - [ ] Implement Azure Container Registry (ACR)
-     - [ ] Deploy applications using Helm charts in AKS
-   - **Automated Deployment**
-     - [ ] Implement Infrastructure as Code (IaC) using Azure Resource Manager (ARM) templates
-     - [ ] Use Azure DevOps for continuous deployment
-     - [ ] Implement Azure Automation and PowerShell runbooks
-     - [ ] **Use Azure CLI to create a Web App and ensure it runs on docker images**
-       - [ ] Using the Azure CLI, create a Web app
-       - [ ] Obtain the URL for the deployed app
-       - [ ] From the browser, test the deployment
-   - **Implementing Azure functions and running them by retrieving their URL**
-     - [ ] Establish an Azure App Service
-     - [ ] Browse the Function app
-     - [ ] Establish the HTTP-Triggered Function
-     - [ ] Run the Azure Function
-
-### 4. **Implement and manage virtual networking (15–20%)**
-   - **Virtual Networks**
-     - [ ] Create and configure Virtual Networks (VNets)
-     - [ ] Implement subnets, network security groups (NSGs), and route tables
-     - [ ] Configure VNet Peering and Service Endpoints
-     - [ ] **Build a basic load balancer through Azure Portal and route the traffic to VMs**
-       - [ ] Building a Virtual Network
-       - [ ] Establish virtual machines
-       - [ ] In both virtual machines, install IIS
-       - [ ] Construct a load balancer
-       - [ ] Run a load balancer test
-     - [ ] **Implement Virtual Networking peering and launch a VM in all virtual networks**
-       - [ ] Virtual Networks Peer
-       - [ ] Virtual Machine Creation
-       - [ ] Build Communication between Virtual Machines
-       - [ ] Establishing connection in firewall
-   - **Public and Private IP Addresses**
-     - [ ] Assign and manage public and private IP addresses
-     - [ ] Implement and manage Azure DNS
-   - **Network Security**
-     - [ ] Configure Azure Firewall and Application Gateway
-     - [ ] Implement Azure Bastion for secure VM
+       - [ ] Establish a data
