@@ -10,6 +10,16 @@
 - Implement and manage virtual networking
 - Monitor and maintain Azure resources
 
+## Theory
+
+- [x] [Prerequisites for Azure administrators](https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/)
+- [ ] [Manage identities and governance in Azure](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-identities-governance/)
+- [ ] [Implement and manage storage in Azure](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-storage/)
+- [ ] [Deploy and manage Azure compute resources](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-compute-resources/)
+- [ ] [Configure and manage virtual networks for Azure administrators](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-virtual-networks/)
+- [ ] [Monitor and backup Azure resources](https://learn.microsoft.com/en-us/learn/paths/az-104-monitor-backup-resources/)
+
+
 ## List of hands-on labs categorized according to the domains of the AZ-104 exam:
 
 Here's the updated list of hands-on labs categorized according to the domains of the AZ-104 exam, with duplicates removed and new labs added.
