@@ -1,5 +1,8 @@
 # AZ-104 Microsoft Azure Administrator Certification 
 
+- [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification)
+
+
 ## List of hands-on labs categorized according to the domains of the AZ-104 exam:
 
 Here's the updated list of hands-on labs categorized according to the domains of the AZ-104 exam, with duplicates removed and new labs added.
