@@ -3,6 +3,13 @@
 - [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification)
 
 
+## Skills measured
+- Manage Azure identities and governance
+- Implement and manage storage
+- Deploy and manage Azure compute resources
+- Implement and manage virtual networking
+- Monitor and maintain Azure resources
+
 ## List of hands-on labs categorized according to the domains of the AZ-104 exam:
 
 Here's the updated list of hands-on labs categorized according to the domains of the AZ-104 exam, with duplicates removed and new labs added.
