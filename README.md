@@ -137,3 +137,12 @@
        - [ ] Build a virtual machine
        - [ ] Permit RDP traffic using the NSG rules
        - [ ] Establish a data
+     - [ ] **Create Azure Firewall**
+       - [ ] Firewall and policy deployment
+       - [ ] Establish a Default Route
+       - [ ] Create a rule for the application
+       - [ ] Establish a network rule
+       - [ ] Create a DNAT rule.
+       - [ ] Change the Srv-work virtual machine’s primary and backup DNS addresses.
+       - [ ] Change the Srv-work virtual machine’s primary and backup DNS addresses.
+       - [ ] Firewall testing
