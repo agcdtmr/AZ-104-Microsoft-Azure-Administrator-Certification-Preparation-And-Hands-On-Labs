@@ -1,4 +1,4 @@
-# AZ-104-Microsoft-Azure-Administrator-Certification-Preparation-And-Hands-On-Labs
+# AZ-104 Microsoft Azure Administrator Certification 
 
 ## List of hands-on labs categorized according to the domains of the AZ-104 exam:
 
