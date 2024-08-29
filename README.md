@@ -50,6 +50,11 @@ Here's the updated list of hands-on labs categorized according to the domains of
 ### 2. **Implement and manage storage (15–20%)**
    - **Storage Accounts**
      - [ ] Create and configure Azure Storage accounts ([Video](https://youtu.be/QBrwHBOX96M))
+       - [ ] Recognize the tiers of performance, redundancy, and access.
+       - [ ] Establish a Storage Account
+       - [ ] Deploy a Container
+       - [ ] Send a Blob item in
+       - [ ] Share and upload a File
      - [ ] Implement secure access to storage accounts using shared access signatures (SAS)
      - [ ] Configure Azure Storage firewalls and virtual networks
      - [ ] Implement Azure Blob Storage lifecycle management policies
@@ -72,11 +77,28 @@ Here's the updated list of hands-on labs categorized according to the domains of
      - [ ] Encrypt data at rest and in transit
      - [ ] Implement Azure Key Vault for managing secrets and keys
      - [ ] Network Access to storage accounts and limit access to private endpoints
+        - [ ] Make a storage account using a private endpoint.
+        - [ ] Establish a virtual machine
+        - [ ] Access the virtual machine’s storage account.
    - **Other Tasks**
      - [ ] Understand Azure Blob Storage Tiers
      - [ ] Work with Azure File shares
+     - [ ] Use CLI to add data disks to VM
+       - [ ] Use the Azure CLI to create an Azure Virtual Machine.
+       - [ ] Disk Attachment to the New Virtual Machine
+       - [ ] Enter the virtual machine through RDP.
+       - [ ] Configuring the Disk
 
 ### 3. **Deploy and manage Azure compute resources (20–25%)**
+   - **Delve into database services like CosmosDB, MySQL and PostgreSQL provided by Azure**
+       - [ ] Using SQL, create a CosmosDB account.
+       - [ ] Make a MySQL Azure Database
+       - [ ] Create a PostgreSQL Azure Database.
+   - **Build SQL Database by setting SQL server**
+       - [ ] Make a SQL database on Azure.
+       - [ ] Make an IP firewall rule at the server level.
+       - [ ] Link to the database
+       - [ ] In the database, create tables.
    - **Virtual Machines (VMs)**
      - [ ] Lab 08 - Manage Virtual Machines
        - [ ] Task 1: Deploy zone-resilient Azure virtual machines by using the Azure portal and an Azure Resource Manager template ([Video](https://youtu.be/C8x4VnmdUaI))
@@ -86,12 +108,19 @@ Here's the updated list of hands-on labs categorized according to the domains of
        - [ ] Task 5: Configure Azure virtual machine scale sets by using virtual machine extensions ([Video](https://youtu.be/_si3DCavORg))
        - [ ] Task 6: Scale compute and storage for Azure virtual machine scale sets ([Video](https://youtu.be/VmZAJxMRJEw))
      - [ ] Create and configure virtual machines (Windows/Linux)
+     - [ ] Create Linux VM  through Ubuntu Server 20.04 LTS – Gen 2 image
+       - [ ] Register to Azure Portal.
+       - [ ] Make a Linux VM on Azure
+       - [ ] How to SSH into VM
+       - [ ] Test the virtual machine you constructed.
      - [ ] Configure VM networking and load balancing
      - [ ] Implement VM scaling using Virtual Machine Scale Sets (VMSS)
      - [ ] Configure Azure Disk Encryption for VMs
      - [ ] Manage VM availability using Availability Sets and Zones
      - [ ] Implement custom script extensions for VMs
      - [ ] Install NGINX server on Linux Virtual Machine via Cloud-Init
+       - [ ] Installing Nginx using unique script extensions
+       - [ ] Test the newly created virtual machine by opening Port 80.
      - [ ] Deploy software using VM extensions
      - [ ] Resize Azure Virtual Machine
      - [ ] Work using custom images
@@ -99,12 +128,26 @@ Here's the updated list of hands-on labs categorized according to the domains of
      - [ ] Adding network interface to a virtual machine
      - [ ] Understand Azure Backup services and enable data backup for files in VMs
      - [ ] Create Availability sets
+        - [ ] How to create an availability set
+        - [ ] Making a Virtual Machine Available in the Set
+        - [ ] Install the second VM within the same Availability Set.
      - [ ] Build an Azure VM of Windows Server 2019 Datacenter image with CLI
+        - [ ] Utilize the Azure CLI to create an Azure Virtual Machine.
+        - [ ] Knowledge of deployment specifics
+        - [ ] Enter the virtual machine through RDP.
+        - [ ] Test the virtual machine you constructed.
    - **App Services**
      - [ ] Lab 09a - Implement Web Apps
        - [ ] Task 1: Creating an Azure Virtual Machine via Windows 2019 datacenter image
        - [ ] Task 2: Use Azure CLI to create a Web App and ensure it runs on docker images ([Video](https://youtu.be/iPIjsBYaqrk))
+          - [ ] Using the Azure CLI, create a Web app.
+          - [ ] Obtain the URL for the deployed app.
+          - [ ] From the browser, test the deployment.
        - [ ] Task 3: Implementing Azure functions and running them by retrieving their URL
+          - [ ] Establish an Azure App Service.
+          - [ ] Browse the Function app
+          - [ ] Establish the HTTP-Triggered Function.
+          - [ ] Run the Azure Function
        - [ ] Task 4: Host portfolio using Azure App Service
        - [ ] Task 5: Work with Application Insights to improve the performance of Web app
      - [ ] Deploy and manage Azure App Services
@@ -112,9 +155,7 @@ Here's the updated list of hands-on labs categorized according to the domains of
      - [ ] Implement and configure autoscaling in App Services
      - [ ] Secure App Services using managed identities
    - **Containers and Kubernetes**
-     - [ ] Deploy
-
- and manage containers in Azure
+     - [ ] Deploy and manage containers in Azure
      - [ ] Implement Azure Kubernetes Service (AKS)
    - **Other Tasks**
      - [ ] Use CLI to add data disks to VM
@@ -127,15 +168,28 @@ Here's the updated list of hands-on labs categorized according to the domains of
        - [ ] Task 2: Deploy virtual machines into the virtual network ([Video](https://youtu.be/Hwt1Z6gnSog))
        - [ ] Task 3: Configure private and public IP addresses of Azure VMs ([Video](https://youtu.be/OOzNytn3mYg))
        - [ ] Task 4: Configure network security groups ([Video](https://youtu.be/X-hu1U302mI))
+          - [ ] Network Security Group rules and apply NSG principles through the Azure Portal.
+          - [ ] Permit RDP traffic using the NSG rules
+          - [ ] Using NSG rules, allow HTTP traffic
        - [ ] Task 5: Configure Azure DNS for internal name resolution ([Video](https://youtu.be/svcVPT3A3Bo))
        - [ ] Task 6: Configure Azure DNS for external name resolution ([Video](https://youtu.be/HjZ0Rpvp69I))
      - [ ] Implement and manage virtual networking
      - [ ] Configure private and public IP addresses
      - [ ] Implement Azure DNS
-     - [ ] Implement Azure Virtual Network Peering
+     - [ ] Implement Azure Virtual Network Peering, Build Communication between Virtual Machines
    - **Network Security**
      - [ ] Configure network security groups (NSGs)
      - [ ] Implement and manage Azure Firewall
+        - [ ] Create Azure Firewall
+        - [ ] Firewall and policy deployment
+        - [ ] Establish a Default Route
+        - [ ] Create a rule for the application
+        - [ ] Establish a network rule
+        - [ ] Create a DNAT rule.
+        - [ ] Change the Srv-work virtual machine’s primary and backup DNS addresses.
+        - [ ] Change the Srv-work virtual machine’s primary and backup DNS addresses.
+        - [ ] Firewall testing
+     - [ ] 
      - [ ] Implement and manage Azure DDoS Protection
      - [ ] Implement VPN Gateway
    - **Traffic Management**
@@ -145,7 +199,16 @@ Here's the updated list of hands-on labs categorized according to the domains of
        - [ ] Task 3: Test transitivity of virtual network peering
        - [ ] Task 4: Configure routing in the hub and spoke topology
        - [ ] Task 5: Implement Azure Load Balancer
+          - [ ] Build a basic load balancer through Azure Portal and route the traffic to VMs
+          - [ ] Building a Virtual Network
+          - [ ] Establish virtual machines
+          - [ ] In both virtual machines, install IIS.
+          - [ ] Construct a load balancer.
+          - [ ] Run a load balancer test.
        - [ ] Task 6: Implement Azure Application Gateway
+          - [ ] In both virtual machines, install IIS.
+          - [ ] Establish a gateway for applications.
+          - [ ] Application Gateway evaluation
      - [ ] Implement Azure Load Balancer
      - [ ] Implement Azure Application Gateway
      - [ ] Implement Azure Front Door
