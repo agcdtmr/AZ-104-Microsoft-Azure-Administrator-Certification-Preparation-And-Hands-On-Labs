@@ -1,7 +1,7 @@
 # AZ-104 Microsoft Azure Administrator Certification 
 
 - [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification)
-
+- [Study guide for Exam AZ-104: Microsoft Azure Administrator](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104)
 
 ## Skills measured
 - Manage Azure identities and governance
@@ -12,12 +12,14 @@
 
 ## Theory
 
+- [ ] [AZ-104 Administrator Associate Study Cram v2](https://www.youtube.com/watch?v=0Knf9nub4-k)
 - [x] [Prerequisites for Azure administrators](https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/)
 - [ ] [Manage identities and governance in Azure](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-identities-governance/)
 - [ ] [Implement and manage storage in Azure](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-storage/)
 - [ ] [Deploy and manage Azure compute resources](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-compute-resources/)
 - [ ] [Configure and manage virtual networks for Azure administrators](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-virtual-networks/)
 - [ ] [Monitor and backup Azure resources](https://learn.microsoft.com/en-us/learn/paths/az-104-monitor-backup-resources/)
+
 
 
 ## List of hands-on labs categorized according to the domains of the AZ-104 exam:
@@ -256,3 +258,8 @@ Here's the updated list of hands-on labs categorized according to the domains of
      - [ ] Perform VM restores
      - [ ] Implement storage account backup and recovery
 
+
+## Practice Exam
+
+- [ ] [Whizlabs Practice Exams](https://www.whizlabs.com/microsoft-azure-certification-az-104/)
+- [ ] [CrackCerts Practice Exams](https://crackcerts.com/practice-tests/az-104-microsoft-azure-administrator?sscid=91k8_1kcfe&)
