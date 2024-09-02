@@ -13,6 +13,7 @@
 ## Theory
 
 - [ ] [AZ-104 Administrator Associate Study Cram v2](https://www.youtube.com/watch?v=0Knf9nub4-k)
+- [ ] [AZ-104 Microsoft Azure Administrator Exam Prep](https://www.udemy.com/course/70533-azure/?couponCode=OF83024E)
 - [x] [Prerequisites for Azure administrators](https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/)
 - [ ] [Manage identities and governance in Azure](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-identities-governance/)
 - [ ] [Implement and manage storage in Azure](https://learn.microsoft.com/en-us/learn/paths/az-104-manage-storage/)
@@ -46,7 +47,14 @@ Here's the updated list of hands-on labs categorized according to the domains of
        - [ ] Task 1: Create and assign tags via the Azure portal ([Video](https://youtu.be/qPlSn-aT2s8))
        - [ ] Task 2: Enforce tagging via an Azure policy ([Video](https://youtu.be/gOLtNPURxMM))
        - [ ] Task 3: Apply tagging via an Azure policy ([Video](https://youtu.be/fQ8VPIzeRIY))
-     - [ ] Lab 03a - Manage Azure resources by Using the Azure Portal
+     - [ ] Implement resource locks
+     - [ ] Manage costs using Azure Cost Management
+     - [ ] Implement tags for resource management
+     - [ ] Create and manage resource groups
+     - [ ] Create, assign and manage Azure Policies
+     - [ ] Work using resource tags
+
+   - [ ] Lab 03a - Manage Azure resources by Using the Azure Portal
        - [ ] Task 1: Create resource groups and deploy resources to resource groups ([Video](https://youtu.be/FtaCm0IK2-0))
        - [ ] Task 2: Move resources between resource groups ([Video](https://youtu.be/62KS3zGARIk))
        - [ ] Task 3: Implement and test resource locks ([Video](https://youtu.be/QjkdcaDXFcc))
@@ -62,12 +70,6 @@ Here's the updated list of hands-on labs categorized according to the domains of
        - [ ] Task 1: Start a Bash session in Azure Cloud Shell ([Video](https://youtu.be/XXWDvosISU8))
        - [ ] Task 2: Create a resource group and an Azure managed disk by using Azure CLI ([Video](https://youtu.be/XXWDvosISU8))
        - [ ] Task 3: Configure the managed disk by using Azure CLI ([Video](https://youtu.be/XXWDvosISU8))
-     - [ ] Implement resource locks
-     - [ ] Manage costs using Azure Cost Management
-     - [ ] Implement tags for resource management
-     - [ ] Create and manage resource groups
-     - [ ] Create, assign and manage Azure Policies
-     - [ ] Work using resource tags
 
 ### 2. **Implement and manage storage (15–20%)**
    - **Storage Accounts**
